@@ -31,6 +31,7 @@ The suggested hardware requirements are:
 -  8GB+ of memory for the best performance. It's perfectly possible to
    run with 2GB or less (and people do), but you'll need more if using
    deduplication.
+-  For ZFS native encryption a CPU with AES-NI is recommended. Better performance is achieved with a CPU that supports the MOVBE instruction, for AMD that is  the Excavator family and newer, for Intel that is the Haswell family and newer.
 
 Do I have to use ECC memory for ZFS?
 ------------------------------------
